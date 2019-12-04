@@ -1,5 +1,5 @@
 
-def valid_move?(position_taken?)
+def valid_move?(position_taken)
   if board[index] = position_taken?(board, index)
     return true
   end
