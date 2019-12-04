@@ -1,8 +1,8 @@
 
 def valid_move?(board, index)
-  # if board[index] = position_taken?
-  #   return false
-#  end
+  if board[index] = position_taken?
+    return false
+  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
